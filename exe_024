@@ -1,0 +1,13 @@
+cid = str(input('Digite o nome da sua cidade:')).strip().upper().split()
+print('Esta cidade começa com "Santo"?')
+print(cid[0] == 'SANTO')
+
+cid = str(input('Em que Cidade você nasceu?')).strip()
+print(cid[:6] .upper() == 'SANTO')
+
+nome = input('Qual é o nome da sua cidade? ').strip().split()
+print('Essa cidade começa com "Santo"? ')
+print(nome[0].upper() == 'SANTO')
+
+c = input('Digite o nome da cidade: ').strip().split()
+print(c[0].upper() == 'SANTO')
