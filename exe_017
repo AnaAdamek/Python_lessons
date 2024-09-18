@@ -1,0 +1,16 @@
+import math
+
+cto = float(input('Comprimento do cateto oposto:'))
+cta = float(input('Comprimento do cateto adjacente:'))
+v = (cto ** 2 + cta ** 2) ** (1/2)
+print('A hipotenusa vai medir {:.2f}'.format(v))
+
+cto = float(input('Comprimento do cateto oposto:'))
+cta = float(input('Comprimento do cateto adjacente:'))
+hi = math.hypot(cta, cto)
+print('A hipotenusa vai medir {:.2f}'.format(hi))
+
+cto = float(input('Comprimento do cateto oposto:'))
+cta = float(input('Comprimento do cateto adjacente:'))
+print(f'A hipotenusa vai medir {((cto ** 2 + cta ** 2) ** (1/2)):.2f}')
+print(f'A hipotenusa vai medir {math.hypot(cto, cta):.2f}.')
