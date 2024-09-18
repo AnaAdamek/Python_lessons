@@ -1,0 +1,8 @@
+v = float(input('Quanto dinheiro você tem na carteira? R$'))
+print(f'Com {v} você pode comprar US${(v / 3.27):.2f} ')
+
+v = float(input('Quanto você tem?'))
+print('{} Reais equivalem a {:.2f} dólares.'.format(v,(v/3.27)))
+
+v = float(input('Quanto você tem na carteira? R$'))
+print(f'Sabendo que você tem {v}, é possível comprar {(v / 6.19):.2f} Euros, {(v / 0.040):.2f} Ienes.')
