@@ -1,0 +1,11 @@
+import math
+v = float(input('Digite um ângulo que você deseja:'))
+seno = math.sin(math.radians(v))
+coss = math.cos(math.radians(v))
+tang = math.tan(math.radians(v))
+print('O ângulo de {} tem o SENO de {:.2f}'.format(v, seno))
+print('O ângulo de {} tem o COSSENO de {:.2f}'.format(v, coss))
+print('O ângulo de {} tem a TANGENTE de {:.2f}'.format(v, tang))
+
+v = float(input('Digite um ângulo que você deseja:'))
+print(f'Analisando o ângulo {v}, podemos dizer que:\nSeu SENO é {math.sin(math.radians(v)):.2f}, Seu COSSENO é {math.cos(math.radians(v)):.2f}, e Sua TANGENTE é {math.tan(math.radians(v)):.2f}.')
