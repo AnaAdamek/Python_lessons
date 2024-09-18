@@ -1,0 +1,3 @@
+dis = float(input('Digite uma distancia:'))
+print(f'A medida {dis} equivale a {dis} metros.')
+print(f'A medida {dis} equivale a: \n{dis*1000:.0f}mm \n{dis*100:.0f}cm \n{dis*10:.0f}dc \n{dis/10}dam \n{dis/100}hm \n{dis/1000}km')
