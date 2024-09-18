@@ -1,0 +1,11 @@
+a =float(input('Qual é a altura da parede?'))
+l =float(input('Qual é a largura da parede?'))
+s = (a * l)
+t = s / 2
+print('A área total da parede é {}m². \nSabendo que 1L de tinta pinta 2m², serão necessarios {:.2f}L de tinta para está pintar está parede.'.format(s,t))
+
+
+a = float(input('Qual é a altura da sua parede?'))
+l = float(input('Qual é a largura da sua parede?'))
+print(
+    f'Sabendo que a altura da sua parede é {a}, e a largura da sua parede é {l}, sabemos que sua aréa total é de {a * l}m², e serão necessarios {((a * l) / 2):.1f}L de tinta para pinta-la por inteiro.')
