@@ -1,0 +1,11 @@
+num = int(input('Digite um número:'))
+print(f'O dobro de {num} é {num * 2}, e o tripo é {num * 3}, e sua raiz quadrada é {(num ** (1/2)):.2f}')
+
+n =int(input('Digite um valor:'))
+d = n * 2
+t = n * 3
+q = n ** (1/2)
+print('O dobro é {}, o triplo  é {} e a raiz quadrada é {:.2f}'.format(d, t, q))
+
+n = int(input('Digite um valor:'))
+print('Analizando o Valor {}, seu dobro é {}, seu triplo é {}, e sua raiz quadrada é {:.2f}!'.format(n, (n * 2),(n*3),(n**(1/2))))
