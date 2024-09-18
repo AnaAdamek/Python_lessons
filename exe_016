@@ -1,0 +1,15 @@
+import math
+
+n = float(input('Digite um número:'))
+print('O número {} transformado em número inteiro é {}.'.format(n, math.trunc(n)))
+
+from math import trunc
+
+n = float(input('Digite um valor:'))
+print('A porção inteira de {} é  {}.'.format(n, trunc(n)))
+
+n = float(input('Digite um número:'))
+print('A porção inteira de {} é {}.'.format(n, int(n)))
+
+n = float(input('Digite um valor:'))
+print(f'A porção inteira de {n} é {n.__trunc__()}.')
