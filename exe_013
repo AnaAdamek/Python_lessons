@@ -1,0 +1,6 @@
+s = float(input('Qual o salário do funcionário? R$'))
+r = s + (s * 15 / 100)
+print('Um funcionario que ganhava R${:.2f}, com 15% de aumento, passa a receber R${:.2f}'.format(s, r))
+
+s = float(input('Qual é o salário do funcionario? R$'))
+print(f'Com 15% de aumento o funcionário que ganhava R${s:.2f} irá ganhar agora R${(s + (s * 15 / 100)):.2f}.')
