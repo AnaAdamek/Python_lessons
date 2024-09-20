@@ -1,0 +1,6 @@
+ve = float(input('Qual a velocidade do veículo?'))
+if ve <= 80:
+    print('Você está dentro dos parâmetros.')
+else:
+    print(f'MULTADO! Você ultrapassou a velocidade máxima de 80Km/h. \nSua multa é de R${((ve - 80) * 7):.2f}!')
+print('Tenha um Bom dia! Dirija com segurança!')
