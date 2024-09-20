@@ -1,0 +1,10 @@
+valor = int(input('Digite um número:'))
+resultado = valor % 2
+if resultado == 0:
+    print(f'O número {valor} é PAR')
+else:
+    print(f'O número {valor} é IMPAR')
+
+print('*' * 100)
+num = int(input('Digite um número:'))
+print(f'O número {num} é PAR' if num % 2 == 0 else f'O número {num} é IMPAR.')
