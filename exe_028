@@ -1,0 +1,33 @@
+import random
+import playsound
+print('-' * 100)
+print('Bem Vindo ao Jogo')
+nome = str(input('Qual é seu nome?'))
+num = int(input(f'Oi {nome}, Diga um número entre 1 e 3:'))
+lista = [1, 2, 3]
+v = random.choice(lista)
+print(f'O Número que eu escolhi é {v}!')
+if num == v:
+    print('Você acertou !!! 🤩')
+    playsound.playsound('anime-wow-sound-effect.mp3')
+else:
+    print('Erro meu companheiro... 😭')
+    playsound.playsound('risada-do-gato.mp3')
+print('Obrigada por Jogar!')
+# print('-' * 100)
+
+print('*' * 100)
+from time import sleep
+from random import randint
+computador = randint(0, 5)
+print('-=-' * 25)
+print('Vou pensar em um número entre 0 e 5, tente adivinhar qual é...')
+print('-=-' * 25)
+jogador = int(input('Em que número eu pensei?'))
+print('PROCESSANDO...')
+sleep(2)
+if jogador == computador:
+    print('Parabéns você acertou!')
+else:
+    print(F'Você errou! HAHAHA, EU PENSEI NO NÚMERO {computador} E NÃO NO {jogador}.')
+print('Obrigado por jogar!')
