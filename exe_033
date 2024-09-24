@@ -1,0 +1,25 @@
+n1 = int(input('Primeiro Valor:'))
+n2 = int(input('Segundo Valor:'))
+n3 = int(input('Terceiro Valor:'))
+n4 = int(input('Quarto Valor:'))
+lista = [n1, n2, n3, n4]
+print(f'O menor valor Digitado foi {min(lista)}')
+print(f'O maior valor Digitado foi {max(lista)}')
+
+print('=' * 60)
+
+a = int(input('Primeiro Valor:'))
+b = int(input('Segundo Valor:'))
+c = int(input('Terceiro Valor:'))
+menor = a
+if b < a and b < c:
+    menor = b
+if c < a and c < b:
+    menor = c
+
+maior = a
+if b > a and b > c:
+    maior = b
+if c > a and c > b:
+    maior = c
+print(f'O Menor é {menor}, e o Maior é {maior} .')
